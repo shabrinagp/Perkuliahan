@@ -10,3 +10,5 @@ fit <- glm(y/n ~ x, family=binomial(link=logit), weights=n)
 summary(fit)
 
 #3.7
+Heart <- read.table("http://www.stat.ufl.edu/~aa/cat/data/Heart.dat", header=TRUE)
+Heart
